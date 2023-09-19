@@ -32,5 +32,7 @@ body{
     padding: 0.5rem;
     border-radius: 4px;
 }
-
-
+.weather_icon img{
+    width: 60px;
+    padding-inline: 45%;
+}
