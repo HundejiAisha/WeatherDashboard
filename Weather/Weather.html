@@ -23,15 +23,24 @@
 
     <div id="weather-information">
       <h2 id="locationName"></h2>
-      <div class="weather_icon"><img src="weather_icon.png" alt="">
+      <div class="weather_icon" ><img id="weather_icon" src="weather_icon.png" alt="">
       </div>
+      <div class="temperature">
+        <span id="currentTemperature"></span>
+        <span id="temperatureUnit"></span>
+    </div>
+    <div id="weatherDescription"></div>
+    <div id="humidity"></div>
+    <div id="windSpeed"></div>
       
       
     </div>
+    <div class="error-message" id="errorMessage"></div>
 
+<script src="Weather.js"></script>
 
   </body>
 
  
-<script src="Weather.js"></script>
+
 </html>
